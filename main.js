@@ -25,7 +25,7 @@ printKata(4, userOver38)
 
 const userOver38Active = users
     .filter(user => user.isActive === true)
-    .find(user => user.age >= "38")
+    .find(user => user.age > "38")
 printKata(5, userOver38Active)
 
 const userBalance = users
